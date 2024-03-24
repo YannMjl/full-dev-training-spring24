@@ -83,7 +83,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1vw;
-  background-color: var(--background);
+  /* background-color: var(--background); */
   border-radius: 5px;
   font-size: 112.5%;
   font-family: "Inter UI", Helvetica, Arial, sans-serif;
@@ -204,8 +204,8 @@ main {
   flex: 1;;
   border-bottom: 1px solid var(--border-color);
   text-decoration: none;
-  font-size: clamp(1.5rem, 5vw, 10rem);
-  color: var(--text-color);
+  font-size: clamp(1rem, 5vw, 5rem);
+  /* color: var(--text-color); */
 }
 
 .links > a > strong {
@@ -215,6 +215,7 @@ main {
   display: flex;
   align-items: center;
   background-color: var(--background);
+  /* background-color: white; */
   z-index: 1;
 }
 
@@ -226,6 +227,7 @@ main {
   right: 0;
   top: 50%;
   background-color: var(--text-color);
+  /* background-color: white; */
   opacity: 0;
   transition: opacity 100ms ease-in-out;
   transform: translateY(-50%);
@@ -271,5 +273,8 @@ main {
 }
 
 #myFeedbackForm {
-    display: none;
+  display: none;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
