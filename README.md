@@ -15,8 +15,19 @@ To run this:
 > I have 3 enviorment for this project:
 
 * **[Dev env](https://google.com)**
+----
+This is running under [GitHub Pages](https://pages.github.com/)
+and deployed ib a CI/CDeployment pipeline using Github Actions.
+
 * **[Test env](https://google.com)**
+----
+This is running under [GitHub Pages](https://pages.github.com/)
+and deployed ib a CI/CDeployment pipeline using Github Actions.
+
 * **[Prod env](https://google.com)**
+----
+This is running under [Netlify](https://www.netlify.com/)
+and deployed in a CI/CDelivery pipeline using Github Actions.
 
 ## Author
 
